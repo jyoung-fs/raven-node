@@ -2,6 +2,8 @@
 
 raven-node is a Node.js client for [Sentry](https://getsentry.com/).
 
+Modified to remove native `pg` module so it can compile with `nexe`
+
 ## Resources
 
 * [Documentation](https://docs.getsentry.com/hosted/clients/node/)
